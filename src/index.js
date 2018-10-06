@@ -47,7 +47,7 @@ class SmartCalculator {
   multiply(num) {
     return this[_setop]('*', num);
   }
-  devide(num) {
+  divide(num) {
     return this[_setop]('/', num);
   }
   pow(num) {
